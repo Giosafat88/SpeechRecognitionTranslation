@@ -1,0 +1,294 @@
+#info {
+    font-size: 20px;
+	top:83%;
+	position:absolute;
+	color: red;
+	font-weight: bold;
+    }
+
+#div_start {
+    float: right;
+    }
+#headline {
+    text-decoration: none
+    }
+#credit
+{
+    position: relative;
+    bottom: 16px;
+    left: 80%;
+}
+
+	#container {
+   
+	width:100%;
+	margin: auto;
+}
+#results {
+    font-size: 14px;
+    width: 440px;
+    height: 200px;
+    border:solid 2px;
+	border-color: #999;
+	resize: none;
+    position:absolute;
+	top: 30%;
+    font-family: 'Segoe UI'
+    }
+#logo{
+	position: absolute;
+	top: 6px;
+	left: 30%;
+}
+#results2 {
+    font-size: 14px;
+    width: 440px;
+    height: 200px;
+    border:solid 2px;
+	border-color: #999;
+	resize: none;
+    position:absolute;
+	top: 30%;
+	left: 50%;
+	font-family: 'Segoe UI'
+    }
+
+
+#select_language
+{
+	font-size: 14px;
+	color: #333;
+	background: #CCC;
+	font-family: Segoe UI;
+	border: solid 2px;
+	border-color:#999;
+	position:absolute;
+	//left: 10%;
+	top: 23%;
+    width: 146px;
+}
+#select_dialect
+{
+	font-size: 14px;
+	color: #333;
+	background: #CCC;
+	font-family: Segoe UI;
+	border: solid 2px;
+	border-color:#999;
+	position:absolute;
+	top: 23%;
+	left: 15%;
+	width: 146px;
+}
+#select_language2
+{
+	font-size: 14px;
+	color: #333;
+	background: #CCC;
+	font-family: Segoe UI;
+	border: solid 2px;
+	border-color:#999;
+	position:absolute;
+	top: 23%;
+	left: 50%;
+    width: 146px;
+}
+#select_dialect2
+{
+	font-size: 14px;
+	color: #333;
+	background: #CCC;
+	font-family: Segoe UI;
+	border: solid 2px;
+	border-color:#999;
+	position:absolute;
+	top: 23%;
+	left: 65%;
+	width: 146px;
+}
+#t2s:active
+{
+    top: 22%;
+    box-shadow: initial;
+}
+#pagef
+{
+ position: absolute;
+	width: 100%;
+	height: 10%;
+	bottom: 0;
+	left: 0;
+	background-color: #eeecec;
+	background-image:url("./image/credit.png");
+	background-size:200px 35px;
+	background-repeat:no-repeat;
+	background-position:right;
+}
+#header{
+    position: absolute;
+	width: 100%;
+	height: 10%;
+    top: 0%;
+    left: 0%;
+	background-color: #eeecec;
+	 background-image: url("./image/logo.png");
+	 background-size: 500px 70px;
+	 background-repeat: no-repeat;
+	 background-position:center;
+	}
+#reset
+{
+width:5%;
+	position: absolute;
+	top: 65%;
+    left: 1%;
+	font-size: 14px;
+	color: #333;
+	background: #CCC;
+	font-family: Segoe UI;
+	border: solid 2px;
+	border-color:#999;
+}
+#t2s{
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    top: 23%;
+    left: 80%;
+    position: absolute;
+    cursor:  pointer;
+    border: none;
+    background: transparent;
+    background-image: url("./image/speech.png");
+    box-shadow: initial ;
+}
+
+
+#animate{
+	 width: 50px;
+    height: 50px;
+    display: inline-block;
+    top: 35%;
+    left: 41%;
+	right: 45%;
+    position: absolute;
+    cursor:  pointer;
+    border: none;
+	padding:0;
+    background: transparent;
+    background-image: url("./image/mic-animate.gif");
+    box-shadow: initial ;
+    } 
+	
+	
+#start_button {
+	 width: 50px;
+    height: 50px;
+    display: inline-block;
+    top: 35%;
+    left: 41%;
+	right: 45%;
+    position: absolute;
+    cursor:  pointer;
+    border: none;
+	padding:0;
+    background: transparent;
+    background-image: url("./image/mic.gif");
+
+    box-shadow: initial ;
+    } 
+	.active{
+	top:39%;
+	box-shadow:initial;
+	}
+    .interim {
+    color: gray;
+    }
+    .final {
+    color: black;
+    padding-right: 3px;
+    }
+    .button {
+    display: none;
+    }
+    .marquee {
+    margin: 20px auto;
+    }
+#buttons {
+    margin: 10px 0;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    width: 5%;
+    height: 4%;
+	font-size: 14px;
+	color: #fff;
+	background-color: green;
+	font-family: Segoe UI;
+	border: solid 2px;
+	border-color:green;
+    }
+	
+
+@media screen and (max-width:1000px)
+    {
+    #container {
+   
+	width:100%;
+	
+	}
+	#results {
+   
+    width: 40%;
+	height: 40%;
+  }
+	#results2 {
+   
+    width: 40%;
+   height: 40%;
+    }
+	#reset
+{	
+	
+	position: absolute;
+	top: 80%;
+    left: 8px;
+	font-size: 14px;
+	color: #333;
+	background: #CCC;
+	font-family: Segoe UI;
+	border: solid 2px;
+	border-color:#999;
+}
+	
+	#select_language
+{
+	
+    width: 14%;
+}
+#select_dialect
+{
+	    width: 14%;
+}
+
+#select_language2
+{    width: 14%;
+}
+
+#select_dialect2
+{
+	    width: 14%;
+
+     }
+#header{	
+		width:100%;
+		background-size:40%;
+	 }
+
+#pagef{
+width:100%;
+background-size:20%;
+}
+
+
+	 }  
